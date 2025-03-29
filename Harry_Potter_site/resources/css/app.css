@@ -1,3 +1,132 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents side-scrolling */
+  }
+  
+  .logo{
+      width: 60px;
+  }
+  
+  hr{
+    color: #77966d !important;
+  }
+  
+  
+  /*Start Welcome*/
+    .login-page, .bg-login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Imposta l'altezza della pagina di login per coprire l'intera altezza della viewport */
+      background: url('../assets/Sfondo_access.jpeg') center/cover no-repeat ;
+      background-size: cover;
+    }
+  
+    .login-form {
+      padding: 40px !important;
+      border-radius: 10px;
+      background-color: rgba(33, 107, 90, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      z-index: 1000;
+    }
+  
+    .login-form h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #56282d;
+    }
+  
+    .btn-register,
+    .btn-login,
+    .btn-card{
+      display: inline;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #bdc667; /* Verde */
+      color: white;
+      transition: background-color 1s ease !important;
+      transition: color 1s ease !important;
+    }
+    .btn-register:hover, .btn-login:hover, .btn-card:hover{
+      background-color: #77966d !important;
+    }
+  /*End Welcome*/
+  
+  /*Start collective*/
+    .color_link{
+        color: #BDC667;
+    }
+    .color_link:hover{
+        text-decoration: underline !important;
+        color: #000 !important;
+    }
+    .color-title{
+      color: #56282d !important;
+    }
+    .color-subtitle{
+      color: #544343 !important;
+    }
+    .botton{
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+    }
+    .botton_link{
+      font-size: 1em;
+      color: #fff;
+      text-decoration: none;
+      line-height: 1.7em;
+      border: 2px solid;
+      padding: 0.3em 1em;
+      border-radius: 3px;
+    }
+    .botton_link:hover{
+      color: #fff !important;
+    }
+    .list{
+      list-style-type: disc;
+    }
+    .categories{
+      background-color: #fff;
+      width: 200px;
+      text-align: center;
+      border-radius: 5px;
+    }
+    
+  /*End collective*/
+  
+  /*Start AuthenticatedLayout*/
+    .bg-navbar{
+      background-color: #25612C;
+      border-bottom: 0;
+    }
+    .link{
+      text-decoration: none !important;
+    }
+  /*End AuthenticatedLayout*/
+  
+  /*Strat Footer*/
+    .bg-footer{
+      background-color: #25612C;
+    }
+  /*End Footer*/
