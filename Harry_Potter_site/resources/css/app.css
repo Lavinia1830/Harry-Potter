@@ -13,15 +13,14 @@
   }
   
   .logo{
-      width: 60px;
+      width: 150px;
   }
   
   hr{
     color: #77966d !important;
   }
+
   
-  
-  /*Start Welcome*/
     .login-page, .bg-login {
       display: flex;
       justify-content: center;
@@ -55,7 +54,7 @@
       border-radius: 5px;
       font-size: 16px;
       cursor: pointer;
-      background-color: #bdc667; /* Verde */
+      background-color: #ffd700; /* oro */
       color: white;
       transition: background-color 1s ease !important;
       transition: color 1s ease !important;
@@ -63,15 +62,14 @@
     .btn-register:hover, .btn-login:hover, .btn-card:hover{
       background-color: #77966d !important;
     }
-  /*End Welcome*/
+
+    .btn-primary{
+      border: none !important;
+    }
   
   /*Start collective*/
     .color_link{
-        color: #BDC667;
-    }
-    .color_link:hover{
-        text-decoration: underline !important;
-        color: #000 !important;
+        color: #ff0000 !important;
     }
     .color-title{
       color: #56282d !important;
@@ -117,7 +115,7 @@
   
   /*Start AuthenticatedLayout*/
     .bg-navbar{
-      background-color: #25612C;
+      background-color: #000000;
       border-bottom: 0;
     }
     .link{
